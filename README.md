@@ -1,2 +1,2 @@
 # Text-Generator
-A program that can predict the next word in a pseudo-sentence based on the previous words in the sequence and the data that is used to create a statistical model. Uses an external NLTK library. 
+A program that can predict the next word in a pseudo-sentence based on the previous words in the sequence and the data that is used to create a statistical model. A neat introductory project for learning the basics of ML and NLP in particular. Uses an external NLTK library. The training data/corpus used for the model is a full script for the Game of Thrones TV show. Find the file attached, pass the path to the file to the program to automatically generate the sentences. 
