@@ -17,7 +17,6 @@ for key in bigrams_dict_organized:
         sorted(bigrams_dict_organized[key].items(), key=lambda item: item[1], reverse=True))
 
 
-# print(bigrams_dict_organized)
 def generate_chain():
     first_word_options = [
         word for word in bigrams_dict_organized.keys() if not any(char in word for char in '?.!') and word[0].isupper()]
